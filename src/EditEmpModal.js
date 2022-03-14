@@ -16,7 +16,7 @@ export class EditEmpModal extends Component{
         fetch(process.env.REACT_APP_API+'department')
         .then(response=>response.json())
         .then(data=>{
-            this.setState({deps:data});
+            this.setState({deps:data});//
         });
     }
 
